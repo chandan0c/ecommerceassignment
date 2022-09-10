@@ -14,7 +14,7 @@ export const ProductDetails=()=>{
 
     return <>
        <div>
-        <img src={data.image} alt="image"></img>
+        <img src={data.image} alt="product-image"></img>
         <h1>{data.brand}</h1>
         <h2>{data.title}</h2>
         <h3>{data.category}</h3>
